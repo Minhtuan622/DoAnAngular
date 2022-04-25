@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
+
+:root{
+  --background-brown: #C4BBAF;
+  --card-brown: #F7F3E3;
+  --text-brown: #6F1A07;
+  --button-brown: #A8763E;
+
+  --background-pink: #F7CACD;
+  --card-pink:  #F29CA3;
+  --text-pink: #64113F;
+  --button-pink: #DE4D86;
+
+  --primaryTextColor: #2B2118;
+  --primaryBackgroundColor: #ECF0F1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Patrick Hand', sans-serif;
+  line-height: normal;
+}
+h1{
+  font-size: 44px;
+}
+p{
+  font-size: 22px;
+}

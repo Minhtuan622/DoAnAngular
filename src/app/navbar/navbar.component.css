@@ -1,0 +1,22 @@
+a{
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: var(--text-brown);
+  transition: 0.3s;
+}
+.navHover:hover{
+  font-weight: bold;
+  color: var(--text-brown);
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-brown);
+  height: 10vh;
+}
+.navbar{
+  margin: 15px 0 15px 0;
+  background: white;
+  border-radius: 0.8rem;
+}

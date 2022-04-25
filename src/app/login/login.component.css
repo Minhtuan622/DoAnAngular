@@ -1,0 +1,65 @@
+.loginMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: var(--background-brown);
+}
+
+.loginForm{
+  background: var(--card-brown);
+  padding: 50px;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: var(--button-brown);
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 0.7rem;
+  color: white;
+}
+.hover{cursor: pointer}
+i{
+  font-weight: bold;
+  color: var(--text-brown);
+}
+input{
+  outline: none;
+  border: none;
+  width: 240px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 0.7rem;
+  text-align: center;
+  color: var(--text-brown);
+  transition: 0.5s;
+}
+input:focus{
+  border: 2px solid var(--background-brown);
+  margin: 30px 0 10px 0;
+}
+h2{
+  color: var(--text-brown);
+  font-weight: bold;
+  margin: 0 20px 0 20px;
+}
+label{
+  margin-right: 20px;
+  color: var(--text-brown);
+}
+
+.username, .pass{
+  text-align: right;
+}
+img{
+  height: 45px;
+}
+.logoTitle{
+  display: flex;
+}
+
